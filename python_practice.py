@@ -29,8 +29,22 @@ print(pay)
 #Assume that we execute the following assignment statements
 width = 17
 height = float(12.0)
-print(width // 2)
-print(width / 2.0)
-print(height / 3)
-print( 1 + 2 * 5 )
-print(type)
+m = width // 2
+n = width / 2.0
+p = height / 3
+q = 1 + 2 * 5
+print( m , n, p, q)
+print(type(m), type(n), type(p), type(q))
+
+
+# Exercise 5: Write a program which prompts the user 
+#for a Celsius temperature, convert the temperature to Fahrenheit, 
+#and print out the converted temperature.
+# Formula	
+#(1°C × 9/5) + 32 = 33.8°F
+temp_c = float(input('celsius temprature'))
+temp_f = float(input('farenheit temprature'))
+converter_f = temp_c * (9/5) + 32
+converter_c = (temp_f - 32) * (5/9)
+print(converter_c, 'celsius')
+print(converter_f, 'farenheit')
