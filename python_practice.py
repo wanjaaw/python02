@@ -48,3 +48,8 @@ converter_f = temp_c * (9/5) + 32
 converter_c = (temp_f - 32) * (5/9)
 print(converter_c, 'celsius')
 print(converter_f, 'farenheit')
+
+#imports on math and random
+# Exercise 1
+# Run the program on your system and see what numbers you get. 
+# Run the program more than once and see what numbers you get.
